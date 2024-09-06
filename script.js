@@ -23,6 +23,6 @@ function validateForm() {
     }
 
     // Si todas las validaciones pasan, se envía el formulario
-    window.location.href = "https://www.aerolineas.com.ar/";
+    
     return true;
 }
