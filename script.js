@@ -23,6 +23,5 @@ function validateForm() {
     }
 
     // Si todas las validaciones pasan, se envía el formulario
-    
     return true;
 }
