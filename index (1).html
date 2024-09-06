@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="myForm" onsubmit="return validateForm()" action="home.html" method="post">
+        <label for="message">Mensaje:</label>
+        <input type="text" id="message" name="message" maxlength="30">
+        <br><br>
+
+        <label for="password">Contraseña (mayor a 5 caracteres):</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <label for="checkbox">Acepto los términos y condiciones</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
